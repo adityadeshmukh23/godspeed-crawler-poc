@@ -1,0 +1,30 @@
+---
+source_url: https://raw.githubusercontent.com/vercel/next.js/canary/.cursorindexingignore
+last_updated: 2025-06-21T18:00:27.009Z
+commit_hash: f6433ad67a88292e9096f3c44e895027dc5c6bc9
+---
+
+# Add directories or file patterns to ignore during indexing (e.g. foo/ or *.csv)
+/.*
+/bench/
+/crates/**/tests/
+/docs/
+/errors/
+/examples/
+/packages/create-next-app/templates/
+/packages/next/src/compiled/
+/packages/next-codemod/bin/__testfixtures__/
+/packages/next-codemod/transforms/__testfixtures__/
+/packages/next-codemod/transforms/__tests__/
+/scripts/
+/test/
+/turbo/
+/turbopack/**/tests/
+
+**/*.test.*
+**/*.md
+**/*.mdx
+**/*.toml
+**/*.txt
+**/*.yaml
+**/*.yml

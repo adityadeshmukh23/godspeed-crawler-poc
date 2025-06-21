@@ -1,0 +1,11 @@
+---
+source_url: https://raw.githubusercontent.com/vercel/next.js/canary/.ignore
+last_updated: 2025-06-21T18:00:38.875Z
+commit_hash: 54471d963ca3cdbb4180af6028d350eda8a9e019
+---
+
+# Ignore these files in tools like grep, rg, ast-grep, etc. These files should
+# *not* be ignored by git.
+
+# Not valid text
+turbopack/crates/turbopack-tests/tests/execution/turbopack/basic/error/input/broken.js

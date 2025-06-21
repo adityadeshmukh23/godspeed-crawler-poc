@@ -1,0 +1,9 @@
+---
+source_url: https://raw.githubusercontent.com/vercel/next.js/canary/.alexignore
+last_updated: 2025-06-21T18:00:26.216Z
+commit_hash: e344f11148c54112706372e7c1c56d9c1f52745d
+---
+
+CODE_OF_CONDUCT.md
+examples/
+**/*/LICENSE.md

@@ -1,0 +1,14 @@
+---
+source_url: https://raw.githubusercontent.com/vercel/next.js/canary/sgconfig.yml
+last_updated: 2025-06-21T18:00:59.475Z
+commit_hash: 50ba6a1de058a0252ac25728539cbc9cb54b5a31
+---
+
+# yaml-language-server: $schema=https://raw.githubusercontent.com/ast-grep/ast-grep/main/schemas/project.json
+
+ruleDirs:
+  - .config/ast-grep/rules
+testConfigs:
+  - testDir: .config/ast-grep/rule-tests
+utilDirs:
+  - .config/ast-grep/rule-utils

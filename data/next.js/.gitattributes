@@ -1,0 +1,15 @@
+---
+source_url: https://raw.githubusercontent.com/vercel/next.js/canary/.gitattributes
+last_updated: 2025-06-21T18:00:36.199Z
+commit_hash: a032aa154c986f690423fe045e74e80332abf749
+---
+
+.github/actions/*/dist/** -text linguist-vendored
+packages/next/bundles/** -text linguist-vendored
+packages/next/compiled/** -text linguist-vendored
+
+# Make next/src/build folder indexable for github search
+build/** linguist-generated=false
+
+# Custom merge driver for auto-generated errors.json
+packages/next/errors.json merge=errors-json

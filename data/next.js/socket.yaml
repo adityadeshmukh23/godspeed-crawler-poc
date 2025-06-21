@@ -1,0 +1,30 @@
+---
+source_url: https://raw.githubusercontent.com/vercel/next.js/canary/socket.yaml
+last_updated: 2025-06-21T18:01:00.040Z
+commit_hash: bcaed5a4e3b0e3c565b0ec11e7ccde4e29ab165a
+---
+
+# top level version field is required
+version: 2
+
+githubApp:
+  enabled: true
+  pullRequestAlertsEnabled: false
+  dependencyOverviewEnabled: false
+  projectReportsEnabled: true
+
+triggerPaths:
+  - 'packages/*/package.json'
+  - 'package.json'
+  - 'pnpm-lock.yaml'
+  - 'pnpm-workspace.yaml'
+
+projectIgnorePaths:
+  - '.github/'
+  - 'bench/'
+  - 'contributing/'
+  - 'docs/'
+  - 'errors/'
+  - 'examples/'
+  - 'scripts/'
+  - 'test/'

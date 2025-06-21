@@ -1,0 +1,13 @@
+---
+source_url: https://raw.githubusercontent.com/vercel/next.js/canary/pnpm-workspace.yaml
+last_updated: 2025-06-21T18:00:57.155Z
+commit_hash: c8e7a64cd804ae37ee70f0c96477693292ac9527
+---
+
+packages:
+  - 'packages/*'
+  - 'bench/*'
+  - 'crates/*/js'
+  - 'turbopack/crates/*/js'
+  - 'turbopack/crates/turbopack-tests/tests/execution'
+  - 'turbopack/packages/*'

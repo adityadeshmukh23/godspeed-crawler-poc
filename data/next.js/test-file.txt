@@ -1,0 +1,7 @@
+---
+source_url: https://raw.githubusercontent.com/vercel/next.js/canary/test-file.txt
+last_updated: 2025-06-21T18:01:00.340Z
+commit_hash: b8ec101a25009141a337ec6cc68c1ee417977884
+---
+
+this is used for traverse testing

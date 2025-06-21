@@ -1,0 +1,10 @@
+---
+source_url: https://raw.githubusercontent.com/vercel/next.js/canary/rust-toolchain.toml
+last_updated: 2025-06-21T18:00:58.670Z
+commit_hash: 506aba1aaff629cc62505abcbddc665a6f243b4c
+---
+
+[toolchain]
+channel = "nightly-2025-06-04"
+components = ["rustfmt", "clippy", "rust-analyzer"]
+profile = "minimal"
